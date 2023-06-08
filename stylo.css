@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 60px;
+  }
+  
+  #login-form {
+    margin-top: 40px;
+  }
+  
+  #balance-info {
+    display: none;
+    margin-top: 500px;
+  }

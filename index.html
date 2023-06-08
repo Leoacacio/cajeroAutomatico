@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cajero Automático</title>
+  <h3>Constraseña para todos los usuarios 1234</h3>
+  <style src="stylo.css"> </style>
+  <script src="codigo.js" > </script> 
+</head>
+<body>
+  <h1>Cajero Automático</h1>
+  
+  <div id="loginpersona">
+    <label for="seleccionacuenta">Selecciona una cuenta:</label>
+    <select id="seleccionacuenta">
+      <option value="0">Persona 1</option>
+      <option value="1">Persona 2</option>
+      <option value="2">Persona 3</option>
+    </select>
+    <br>
+    <br>
+    <label for="password-input">Ingresa el password:</label>
+    <input type="password" id="password-input">
+    <br>
+    <br>
+    <button onclick="login()">Ingresar</button>
+  </div>
+  
+  <div id="balance-info">
+    <h2>Información de Saldo:</h2>
+    <p id="nombrecuenta"></p>
+    <p id="account-balance"></p>
+    <button onclick="logout()">Cerrar sesión</button>
+  </div>
+
+</body>
+</html>
